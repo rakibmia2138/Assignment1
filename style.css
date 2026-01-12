@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 header{
     margin-top: 16px;
     
@@ -102,6 +106,7 @@ nav .menu a{
     text-align: center;
     line-height: 30px;
     color: #757575;
+    margin-bottom: 24px;
 }
 #notes .notes-container{
     max-width: 1600px;
@@ -121,6 +126,11 @@ nav .menu a{
     padding: 24px;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 5px 5px 5px 5px #04f56842;
+    gap: 24px;
+}
+.notes-card:hover{
+    background-color: #42b97d7a;
 }
 .notes-box .notes-card img{
     padding: 2.5px 2.5px;
@@ -130,7 +140,7 @@ nav .menu a{
     /* align-items: center; */
 }
 .notes-box .notes-card h3{
-    font-size: 24px;
+    font-size: 17px;
     color: #001931;
     line-height: 29px;
     text-align: center;
@@ -145,21 +155,21 @@ nav .menu a{
 #brain{
     width: 81%;
     max-width: 1600px;
-    /* padding: 120px; */
-    /* border: 1px solid; */
     margin: 0 auto;
 }
 #brain .section-container{
+    background: rgba(255, 255, 255, 1);
    display: flex;
    gap: 60px;
    justify-content: flex-start;
     align-items: center;
-    
 }
+
 #brain .section-container .image img{
     width: 600px;
     height: 600px;
     border-radius: 12px;
+    padding: 120px;
 }
 #brain .section-container .brain-message{
     margin: 102px 0;
@@ -173,7 +183,7 @@ nav .menu a{
 }
 #brain .section-container .brain-message h1{
     color: #001931;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
     text-align: left;
     line-height: 58px;
